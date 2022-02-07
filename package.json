@@ -1,0 +1,21 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start:web": "yarn workspace web start",
+    "start:mobile:ios": "yarn workspace mobile ios",
+    "start:mobile:android": "yarn workspace mobile android",
+    "delete:node_modules": "rm -rf ./node_modules ./packages/mobile/node_modules ./packages/web/node_modules" 
+  },
+  "workspaces":[
+    "packages/*",
+    "packages/libs/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
