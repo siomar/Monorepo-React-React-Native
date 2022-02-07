@@ -5,9 +5,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start:web": "yarn workspace web start",
-    "start:mobile:ios": "yarn workspace mobile ios",
-    "start:mobile:android": "yarn workspace mobile android",
+    "start:web": "yarn workspace @monorepo/web start",
+    "start:mobile:ios": "yarn workspace @monorepo/mobile ios",
+    "start:mobile:android": "yarn workspace @monorepo/mobile android",
     "delete:node_modules": "rm -rf ./node_modules ./packages/mobile/node_modules ./packages/web/node_modules" 
   },
   "workspaces":[
