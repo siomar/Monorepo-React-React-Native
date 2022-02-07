@@ -1,7 +1,7 @@
+![enter image description here](https://github.com/siomar/Monorepo-React-React-Native/blob/main/monorepo.png?raw=true)
 
 #  Monorepo com React and React-Native
 
-  
 
 Este projeto é a realização de um estudo sobre [Yarn Workspaces](https://classic.yarnpkg.com/lang/en/docs/workspaces/) e como criar componentes e até mesmo um micro front-end compartilhado entre as diversas frentes como Web e Mobile.
   
